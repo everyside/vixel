@@ -1,0 +1,17 @@
+{
+  "presets": ["@babel/env"],
+  "plugins": [
+    "babel-plugin-add-module-exports",
+    "@babel/plugin-transform-for-of",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        ["istanbul"]
+      ]
+    }
+  }
+}
