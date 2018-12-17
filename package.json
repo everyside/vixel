@@ -1,8 +1,8 @@
 {
-  "name": "vixel",
+  "name": "@vixeljs/vixel",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/vixel.js",
+  "main": "npm publish --access publicvixel.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",
@@ -17,10 +17,7 @@
   },
   "keywords": [
     "vixel",
-    "led",
-    "rasperry",
-    "pi",
-    "apa102"
+    "led"
   ],
   "author": "Everyside Innovations, LLC",
   "license": "Apache-2.0",
