@@ -58,7 +58,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.2.0",
-    "tinycolor2": "^1.4.1",
-    "websocket": "^1.0.28"
+    "tinycolor2": "^1.4.1"
   }
 }
