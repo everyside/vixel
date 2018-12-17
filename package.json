@@ -1,8 +1,8 @@
 {
   "name": "@vixeljs/vixel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "npm publish --access publicvixel.js",
+  "main": "lib/@vixeljs/vixel.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",
